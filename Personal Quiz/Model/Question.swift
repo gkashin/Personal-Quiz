@@ -22,7 +22,7 @@ extension Question {
                     Answer(text: "Кричу на людей", name: .Jobs),
                     Answer(text: "Выпускаю гнев в Твиттере", name: .Mask),
                     Answer(text: "Никогда не злюсь", name: .Gates),
-                    Answer(text: "Пытаюсь стать лучше всех", name: .Bezos)
+                    Answer(text: "Читаю книги", name: .Bezos)
                 ]
             ),
             Question(
@@ -35,13 +35,14 @@ extension Question {
                     Answer(text: "Книги", name: .Bezos),
                 ]
             ),
-            Question(text: "Вы любите деньги?",
-                     type: .ranged,
-                     answers: [
-                        Answer(text: "Это не главное", name: .Jobs),
-                        Answer(text: "Скорее нет", name: .Mask),
-                        Answer(text: "Скорее да", name: .Gates),
-                        Answer(text: "Очень люблю", name: .Bezos)
+            Question(
+                text: "Вы любите деньги?",
+                type: .ranged,
+                answers: [
+                    Answer(text: "Это не главное", name: .Jobs),
+                    Answer(text: "Скорее нет", name: .Mask),
+                    Answer(text: "Скорее да", name: .Gates),
+                    Answer(text: "Очень люблю", name: .Bezos)
                 ]
             )
         ]
